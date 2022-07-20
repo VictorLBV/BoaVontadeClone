@@ -1,0 +1,149 @@
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<nav class="navbar navbar-expand-lg ">
+  <div class="container d-flex justify-content-around">
+    <div class="row">
+      <div class="col header">
+        <div>
+          <a href="#"><img src="../../assets/img/logo.jpg" class="logo"></a>
+        </div>
+      </div>
+      <div class="col">
+        <a class="navbar-brand nomedosite " href="#">BOAVONTADE.COM</a>
+        <br>
+        PORTAL DA ESPIRITUALIDADE ECUMÊNICA
+      </div>
+      <div class="col">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Quem somos?
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="btn btn-outline-light">
+              <a [routerLink]="['/contato']">
+                Contato
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+</nav>
+<hr>
+<div class="container">
+    <ul class="list-group" class="lista-categoria">
+      <li class="nav-link dia-a-dia"><p [routerLink]="['/dia-a-dia']">Dia a Dia</p></li>
+      <li class="nav-link ecologia"><p [routerLink]="['/ecologia']">Ecologia</p></li>
+      <li class="nav-link educacao"><p [routerLink]="['/educacao']">Educação</p></li>
+      <li class="nav-link esporte"><p [routerLink]="['/esporte']">Esporte</p></li>
+      <li class="nav-link noticias"><p [routerLink]="['/noticias']">Notícias</p></li>
+      <li class="nav-link saude"><p [routerLink]="['/saude']">Saúde</p></li>
+      <li class="nav-link tecnologia"><p [routerLink]="['/tecnologia']">Tecnologia</p></li>
+      <li class="redesocial">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.boavontade.com%2Fpt%3Futm_campaign%3Dsiteshare%26utm_medium%3Dfacebook%26utm_source%3Dsocialnetwork&quote=">
+          <img src="../../assets/img/facebook_icon.png">
+        </a>
+      </li>
+      <li class="redesocial">
+        <a href="https://twitter.com/intent/tweet?text=BoaVontade.com%3A%20o%20Portal%20da%20Espiritualidade%20Ecum%C3%AAnica%20-%20https%3A%2F%2Fgo.shr.lc%2F3dq6zaY%20via%20%40boavontade&source=Shareaholic&related=shareaholic">
+        <img src="../../assets/img/twitter_icon.png">
+        </a>
+      </li>
+    </ul>
+  <hr>
+<div class="textoContato">
+  Fale Conosco
+</div>
+<form class="form">
+  <div class="mb-3">
+    <label class="form-label">Assunto</label>
+      <select class="form-select"required aria-label="Default select example">
+      <option selected>-Selecione-</option>
+      <option *ngFor="let assunto of assuntos">{{assunto}}</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Nome</label>
+    <input type="text" name="nome" id="nome" class="form-control">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">E-mail</label>
+    <input type="email" name="e-mail" id="email" class="form-control">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Cidade</label>
+    <input type="text" name="cidade" id="cidade" class="form-control">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">UF</label>
+      <select class="form-select"required aria-label="Default select example">
+      <option selected>-Nenhum-</option>
+      <option *ngFor="let estado of estados">{{estado}}</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Mensagem</label>
+    <textarea type="text" name="areadetexto" id="mensagem" class="form-control" rows="5"></textarea>
+  </div>
+  <div>
+    <input class="checkbox" type="radio" required>
+    <label for="termos">Li e estou de acordo com o <a href="https://www.boavontade.com/pt/aviso-de-privacidade">Aviso de Privacidade</a></label>
+  </div>
+  <div>
+    <button type="submit" class="btn btn-outline-secondary form">Enviar</button>
+  </div>
+</form>
+<div class="info">
+  <div class="info">
+    <div class="row">
+      <div class="col">
+        <h2><p><a href="https://www.lbv.org/" style="text-decoration: none;">Legião da Boa Vontade</a></p></h2>
+        <p>Argentina</p>
+        <p>Bolívia</p>
+        <p>Brasil</p>
+        <p>Estados Unidos</p>
+        <p>Paraguai</p>
+        <p>Portugal</p>
+        <p>Uruguai</p>
+      </div>
+      <div class="col">
+        <h2><p><a href="https://www.religiaodedeus.org/pt" style="text-decoration: none;">Religião de Deus</a></p></h2>
+        <p>Juventude Ecumênica</p>
+        <p>Soldadinhos de Deus</p>
+        <p>Templo da Boa Vontade</p>
+        <p>Clube Cultura de Paz</p>
+      </div>
+      <div class="col">
+        <h2><p><a href="https://www.boavontade.com/pt/tv" style="text-decoration: none;">Comunicação 100% Jesus</a></p></h2>
+        <p>Boa Vontade Play</p>
+        <p>Boa Vontade TV</p>
+        <p>Revista Boa Vontade</p>
+        <p>Revista Jesus está chegando!</p>
+        <p>Super RBV</p>
+        <p>Relatório de Comunicação da LBV</p>
+        <p>Aviso de Privacidade</p>
+      </div>
+      <div class="col">
+        <h2><p><a href="https://www.fjpn.com.br/" style="text-decoration: none;">Fundação José de Paiva Netto</a></p></h2>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="footer">&copy; Site recriado | BOAVONTADE.COM</p>
+  </footer>
+</div>

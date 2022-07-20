@@ -1,0 +1,122 @@
+.inicio{
+  align-items: left;
+}
+
+.static{
+  position: fixed;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  padding-top: 20%;
+}
+
+.static-img{
+  width: 35px;
+  height: 35px;
+}
+
+/*.home-noticias{
+  border: 30px solid #005ab3;
+  background: #005ab3;
+  font-family: Montserrat;
+  height: 350px;
+  margin: 0 8% 0 8%;
+  text-align: center;
+  color: #fefefe;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 280px;
+}
+*/
+
+.home-noticias{
+  border: 30px solid #005ab3;
+  background: #005ab3;
+  height: 340px;
+  padding-bottom: 280px;
+  margin: 0 8% 0 8%;
+  font-family: Montserrat;
+}
+
+.home-noticias-lbv{
+  font-family: Montserrat;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.card{
+  background: #005ab3;
+}
+
+.card-text{
+  color: white;
+}
+
+.card-img-top-first:hover{
+  border: 2px solid white;
+}
+
+.subcard{
+  padding-top: 50px;
+  font-family: Montserrat;
+}
+
+
+.card-img-top-brown:hover{
+  border: 2px solid brown;
+}
+
+.card-img-top-green:hover{
+  border: 2px solid green;
+}
+
+.card-img-top-black:hover{
+  border: 2px solid black;
+}
+
+.card-title-dia{
+  border-left-width: 7px;
+  border-left-style: solid;
+  border-color: brown;
+  width: 120%;
+}
+
+.card-title-ecologia{
+  border-left-width: 7px;
+  border-left-style: solid;
+  border-color: green;
+  width: 120%;
+}
+
+.card-title-educacao{
+  border-left-width: 7px;
+  border-left-style: solid;
+  border-color: black;
+  width: 120%;
+}
+
+.card-dia:hover{
+  color: brown;
+}
+
+.card-ecologia:hover{
+  color:green
+}
+
+.btn-outline-secondary{
+  height:25px;
+  font-size: 10px
+}
+
+
+
+
+
+
+

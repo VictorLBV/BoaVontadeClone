@@ -1,0 +1,43 @@
+.ecologia-text{
+  border-left-width: 7px;
+  border-left-style: solid;;
+  border-color: green;
+  width: 60%;
+  text-align: left;
+}
+
+.ecologia-text, p{
+  margin-left: 10px;
+}
+
+.ecologia-title, h2{
+  color: green;
+}
+
+.h2, p{
+  font-family: Montserrat;
+}
+
+.subcard{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Montserrat;
+}
+
+.card-img-top:hover{
+  border: 2px solid green;
+}
+
+.card-eco{
+  background-color: #eaecde;
+}
+
+.card-eco:hover{
+  color:green
+}
+
+.btn-outline-secondary{
+  height:25px;
+  font-size: 10px;
+}
+

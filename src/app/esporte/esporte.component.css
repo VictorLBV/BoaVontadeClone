@@ -1,0 +1,43 @@
+.esporte-text{
+  border-left-width: 7px;
+  border-left-style: solid;
+  border-color: aqua;
+  width: 60%;
+  text-align: left;
+}
+
+.esporte-text, p{
+  margin-left: 10px;
+}
+
+.esporte-title, h2{
+  color: aqua;
+}
+
+.h2, p{
+  font-family: Montserrat;
+}
+
+.subcard{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Montserrat;
+}
+
+.card-img-top:hover{
+  border: 2px solid aqua;
+}
+
+.card-esp{
+  background-color: #eaecde;
+}
+
+.card-esp:hover{
+  color: aqua
+}
+
+.btn-outline-secondary{
+  height:25px;
+  font-size: 10px;
+}
+

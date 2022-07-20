@@ -1,0 +1,47 @@
+.dia-a-dia-text{
+  border-left-width: 7px;
+  border-left-style: solid;
+  border-color: brown;
+  width: 60%;
+  text-align: left;
+}
+
+.dia-a-dia-text, p{
+  margin-left: 10px;
+}
+
+.dia-title, h2{
+  color: brown;
+}
+
+.h2, p{
+  font-family: Montserrat;
+}
+
+.subcard{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Montserrat;
+}
+
+.card-img-top:hover{
+  border: 2px solid brown;
+}
+
+.card-dia{
+  background-color: #eaecde;
+}
+
+.card-dia:hover{
+  color:brown
+}
+
+.btn-outline-secondary{
+  height:25px;
+  font-size: 10px;
+}
+
+.info{
+
+}
+

@@ -1,0 +1,150 @@
+
+.teste {
+  background-color: white;
+  display: flex;
+}
+
+.nomedosite{
+  font-family: Montserrat;
+}
+
+/*
+.header{
+  padding-right: 30px;
+}
+*/
+
+.logo {
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 50px;
+}
+
+.lista-categoria, li{
+  display: flex;
+  box-sizing: border-box;
+	border-radius: 1px;
+  font-family: Montserrat;
+}
+
+.redesocial {}
+
+.dia-a-dia:hover{
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: brown;
+  color: brown;
+  background-color: #eaecde;
+  height: 40px;
+}
+
+.ecologia:hover{
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: green;
+  color: green;
+  background-color: #eaecde;
+  height: 40px;
+}
+
+.educacao:hover{
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: #00003b;
+  color: #00003b;
+  background-color: #eaecde;
+  height: 40px;
+}
+
+.esporte:hover{
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: aqua;
+  color: aqua;
+  background-color: #eaecde;
+  height: 40px;
+}
+
+.noticias:hover{
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: orange;
+  color: orange;
+  background-color: #eaecde;
+  height: 40px;
+}
+
+.saude:hover{
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: red;
+  color: red;
+  background-color: #eaecde;
+  height: 40px;
+}
+
+.tecnologia:hover{
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: greenyellow;
+  color: greenyellow;
+  background-color: #eaecde;
+  height: 40px;
+}
+
+.checkbox{
+  margin: 10px;
+}
+
+.texto {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.textoContato {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 55px;
+  font-family: Montserrat;
+  padding-bottom: 50px;
+}
+
+.form{
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.container{
+
+}
+
+.info{
+  background-color: #eaecde;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+.footer{
+  font-size: 15px;
+  text-align: center;
+  background-color: gray;
+  line-height: 50px;
+  color: darkgrey;
+  margin-bottom: auto;
+}
+

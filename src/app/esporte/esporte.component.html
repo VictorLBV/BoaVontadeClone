@@ -1,0 +1,138 @@
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<nav class="navbar navbar-expand-lg ">
+  <div class="container d-flex justify-content-around">
+    <div class="row">
+      <div class="col header">
+        <div>
+          <a href=""><img src="../../assets/img/logo.jpg" class="logo"></a>
+        </div>
+      </div>
+      <div class="col">
+        <a class="navbar-brand nomedosite " href="#">BOAVONTADE.COM</a>
+        <br>
+        PORTAL DA ESPIRITUALIDADE ECUMÊNICA
+      </div>
+      <div class="col">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Quem somos?
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="btn btn-outline-light">
+              <a [routerLink]="['/contato']">
+                Contato
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+</nav>
+<hr>
+<div class="container">
+  <ul class="list-group" class="lista-categoria">
+    <li class="nav-link dia-a-dia"><p [routerLink]="['/dia-a-dia']">Dia a Dia</p></li>
+    <li class="nav-link ecologia"><p [routerLink]="['/ecologia']">Ecologia</p></li>
+    <li class="nav-link educacao"><p [routerLink]="['/educacao']">Educação</p></li>
+    <li class="nav-link esporte"><p [routerLink]="['/esporte']">Esporte</p></li>
+    <li class="nav-link noticias"><p [routerLink]="['/noticias']">Notícias</p></li>
+    <li class="nav-link saude"><p [routerLink]="['/saude']">Saúde</p></li>
+    <li class="nav-link tecnologia"><p [routerLink]="['/tecnologia']">Tecnologia</p></li>
+      <li class="redesocial">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.boavontade.com%2Fpt%3Futm_campaign%3Dsiteshare%26utm_medium%3Dfacebook%26utm_source%3Dsocialnetwork&quote=">
+          <img src="../../assets/img/facebook_icon.png">
+        </a>
+      </li>
+      <li class="redesocial">
+        <a href="https://twitter.com/intent/tweet?text=BoaVontade.com%3A%20o%20Portal%20da%20Espiritualidade%20Ecum%C3%AAnica%20-%20https%3A%2F%2Fgo.shr.lc%2F3dq6zaY%20via%20%40boavontade&source=Shareaholic&related=shareaholic">
+        <img src="../../assets/img/twitter_icon.png">
+        </a>
+      </li>
+    </ul>
+<hr>
+<div class="esporte-text">
+  <h2 class="itens-categorias-1"><p>Esporte</p></h2>
+  <p class="text">Sob o lema “Esporte é vida, não violência!” — pioneira campanha da LBV —, acompanhe aqui informações dos principais eventos esportivos do Brasil e do mundo comentados pela equipe do Momento Esportivo, da Super Rádio Brasil 940 AM/RJ.</p>
+</div>
+<div class="container subcard">
+  <div class="row">
+    <div class="col">
+      <div class="card-esp" style="width: 20rem;">
+        <img src="../../assets/img/esp1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title"><b>Conmebol divulga datas e horários das quartas da Libertadores</b></h3>
+          <a href="https://www.boavontade.com/pt/esporte/conmebol-divulga-datas-e-horarios-das-quartas-da-libertadores" class="btn btn-outline-secondary">LEIA MAIS</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-esp" style="width: 20rem;">
+        <div class="card-body">
+          <h3 class="card-title"><b>Alunos de radiojornalismo visitam estúdios da Super Rádio Brasil e da Boa Vontade TV</b></h3>
+          <a href="https://www.boavontade.com/pt/esporte/alunos-de-radiojornalismo-visitam-estudios-da-super-radio-brasil-e-da-boa-vontade-tv" class="btn btn-outline-secondary">LEIA MAIS</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-esp" style="width: 20rem;">
+        <img src="../../assets/img/esp2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title"><b>CBF divulga confrontos das oitavas da Copa do Brasil</b></h3>
+          <a href="https://www.boavontade.com/pt/esporte/cbf-divulga-confrontos-das-oitavas-da-copa-do-brasil" class="btn btn-outline-secondary">LEIA MAIS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="info">
+  <div class="row">
+    <div class="col">
+      <h5><p><a href="https://www.lbv.org/" style="text-decoration: none;">Legião da Boa Vontade</a></p></h5>
+      <p>Argentina</p>
+      <p>Bolívia</p>
+      <p>Brasil</p>
+      <p>Estados Unidos</p>
+      <p>Paraguai</p>
+      <p>Portugal</p>
+      <p>Uruguai</p>
+    </div>
+    <div class="col">
+      <h5><p><a href="https://www.religiaodedeus.org/pt" style="text-decoration: none;">Religião de Deus</a></p></h5>
+      <p>Juventude Ecumênica</p>
+      <p>Soldadinhos de Deus</p>
+      <p>Templo da Boa Vontade</p>
+      <p>Clube Cultura de Paz</p>
+    </div>
+    <div class="col">
+      <h5><p><a href="https://www.boavontade.com/pt/tv" style="text-decoration: none;">Comunicação 100% Jesus</a></p></h5>
+      <p>Boa Vontade Play</p>
+      <p>Boa Vontade TV</p>
+      <p>Revista Boa Vontade</p>
+      <p>Revista Jesus está chegando!</p>
+      <p>Super RBV</p>
+      <p>Relatório de Comunicação da LBV</p>
+      <p>Aviso de Privacidade</p>
+    </div>
+    <div class="col">
+      <h5><p><a href="https://www.fjpn.com.br/" style="text-decoration: none;">Fundação José de Paiva Netto</a></p></h5>
+    </div>
+  </div>
+</div>
+<footer>
+  <p class="footer">&copy; Site recriado | BOAVONTADE.COM</p>
+</footer>

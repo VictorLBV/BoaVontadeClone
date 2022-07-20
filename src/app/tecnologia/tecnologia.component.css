@@ -1,0 +1,43 @@
+.tecnologia-text{
+  border-left-width: 7px;
+  border-left-style: solid;
+  border-color: greenyellow;
+  width: 60%;
+  text-align: left;
+}
+
+.tecnologia-text, p{
+  margin-left: 10px;
+}
+
+.tecnologia-title, h2{
+  color: greenyellow;
+}
+
+.h2, p{
+  font-family: Montserrat;
+}
+
+.subcard{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Montserrat;
+}
+
+.card-img-top:hover{
+  border: 2px solid greenyellow;
+}
+
+.card-tec{
+  background-color: #eaecde;
+}
+
+.card-tec:hover{
+  color:greenyellow
+}
+
+.btn-outline-secondary{
+  height:25px;
+  font-size: 10px;
+}
+

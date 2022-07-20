@@ -1,0 +1,43 @@
+.noticias-text{
+  border-left-width: 7px;
+  border-left-style: solid;
+  border-color: orange;
+  width: 60%;
+  text-align: left;
+}
+
+.noticias-text, p{
+  margin-left: 10px;
+}
+
+.noticias-title, h2{
+  color: orange;
+}
+
+.h2, p{
+  font-family: Montserrat;
+}
+
+.subcard{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Montserrat;
+}
+
+.card-img-top:hover{
+  border: 2px solid orange;
+}
+
+.card-not{
+  background-color: #eaecde;
+}
+
+.card-not:hover{
+  color:orange
+}
+
+.btn-outline-secondary{
+  height:25px;
+  font-size: 10px;
+}
+
