@@ -12,6 +12,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { SaudeComponent } from './saude/saude.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     HomeModule,
     NoopAnimationsModule,
-
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

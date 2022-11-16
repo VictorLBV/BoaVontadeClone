@@ -34,8 +34,8 @@
 */
 
 .home-noticias{
-  border: 30px solid #005ab3;
-  background: #005ab3;
+  border: 30px solid #0C5C73;
+  background: #0C5C73;
   height: 340px;
   padding-bottom: 280px;
   margin: 0 8% 0 8%;
@@ -51,7 +51,12 @@
 }
 
 .card{
-  background: #005ab3;
+  background: #0C5C73;
+}
+
+.card:hover{
+  opacity: 0.6;
+  transition: 0.5s;
 }
 
 .card-text{
@@ -103,16 +108,73 @@
 
 .card-dia:hover{
   color: brown;
+  opacity: 0.7;
+  transition: 0.5s;
 }
 
 .card-ecologia:hover{
-  color:green
+  color:green;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.card-educacao:hover{
+  opacity: 0.7;
+  transition: 0.5s;
 }
 
 .btn-outline-secondary{
   height:25px;
   font-size: 10px
 }
+
+.img-banner:hover{
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.banner-dia{
+  border-left: 7px solid;
+  border-color: brown;
+  font-size: 18px;
+  font-family: Montserrat;
+  text-align: left;
+  color: brown;
+}
+
+.banner-educacao{
+  border-left: 7px solid;
+  border-color: black;
+  font-size: 18px;
+  font-family: Montserrat;
+  text-align: left;
+  color: black;
+}
+
+.banner-ecologia{
+  border-left: 7px solid;
+  border-color: green;
+  font-size: 18px;
+  font-family: Montserrat;
+  text-align: left;
+  color: green;
+}
+
+.banner-saude{
+  border-left: 7px solid;
+  border-color: red;
+  font-size: 18px;
+  font-family: Montserrat;
+  text-align: left;
+  color: red;
+}
+
+.linha{
+  border-bottom: 1px solid
+}
+
+
+
 
 
 

@@ -33,7 +33,9 @@
 }
 
 .card-edu:hover{
-  color: #00003b
+  color: #00003b;
+  opacity: 0.8;
+  transition: 0.5s;
 }
 
 .btn-outline-secondary{

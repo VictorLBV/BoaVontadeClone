@@ -29,11 +29,13 @@
 }
 
 .card-tec{
-  background-color: #eaecde;
+  background-color: #eaecdf;
 }
 
 .card-tec:hover{
-  color:greenyellow
+  color:greenyellow;
+  opacity: 0.8;
+  transition: 0.5s;
 }
 
 .btn-outline-secondary{
